@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rabbit-00-starttask-learn/rabbit-00-starttask-learn.iml" filepath="$PROJECT_DIR$/rabbit-00-starttask-learn/rabbit-00-starttask-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rabbitMQ.iml" filepath="$PROJECT_DIR$/.idea/rabbitMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit_00_chain_and_buildder_learn/rabbit_00_chain_and_buildder_learn.iml" filepath="$PROJECT_DIR$/rabbit_00_chain_and_buildder_learn/rabbit_00_chain_and_buildder_learn.iml" />
+    </modules>
+  </component>
+</project>
