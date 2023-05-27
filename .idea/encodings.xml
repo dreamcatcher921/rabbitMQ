@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/rabbit-00-starttask-learn/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-00-starttask-learn/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-01-fanout/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-01-fanout/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-01-receivemessage/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-01-receivemessage/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-02-direct/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-02-direct/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-03-topic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-03-topic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit_00_chain_and_buildder_learn/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit_00_chain_and_buildder_learn/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

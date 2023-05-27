@@ -1,0 +1,12 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: receive-message
+  #配置rabbitmq
+  rabbitmq:
+    host: 192.168.18.131 #rabbitmq的地址
+    port: 5672 #rabbitmq的端口号
+    username: admin #rabbitmq的用户名
+    password: 123456 #rabbitmq的密码
+    virtual-host: dreamcatcher #rabbitmq的虚拟主机

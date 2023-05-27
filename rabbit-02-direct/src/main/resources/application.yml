@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: direct-exchange #直连交换机
+  #配置rabbitmq
+  rabbitmq:
+    host: 192.168.18.131 #rabbitmq的地址
+    port: 5672 #rabbitmq的端口号
+    username: admin #rabbitmq的用户名
+    password: 123456 #rabbitmq的密码
+    virtual-host: dreamcatcher #rabbitmq的虚拟主机
+
+my:
+  exchangeName: exchange.drirect #交换机名称
+  queueAName: queue.direct.a #队列名称
+  queueBName: queue.direct.b #队列名称
