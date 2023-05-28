@@ -10,8 +10,14 @@
         <option value="$PROJECT_DIR$/rabbit-01-receivemessage/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-02-direct/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-03-topic/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-04-headers/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-05-ttl1/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-05-ttl2/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-06-dlx1/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-06-dlx2/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-00-chain-and-buildder-learn/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="20" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

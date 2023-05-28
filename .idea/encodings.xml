@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://D:/Maven/apache-maven-3.8.1/maven-repo/org/springframework/boot/spring-boot-starter-parent/2.6.13/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-00-chain-and-buildder-learn/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-00-chain-and-buildder-learn/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit-00-starttask-learn/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit-00-starttask-learn/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit-01-fanout/src/main/java" charset="UTF-8" />
@@ -11,7 +14,13 @@
     <file url="file://$PROJECT_DIR$/rabbit-02-direct/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit-03-topic/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit-03-topic/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rabbit_00_chain_and_buildder_learn/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rabbit_00_chain_and_buildder_learn/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-04-headers/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-04-headers/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-05-ttl1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-05-ttl1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-05-ttl2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-06-dlx1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-06-dlx1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-06-dlx2/src/main/java" charset="UTF-8" />
   </component>
 </project>

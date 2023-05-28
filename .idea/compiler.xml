@@ -7,12 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="rabbit-05-ttl1" />
+        <module name="rabbit-05-ttl2" />
+        <module name="rabbit-06-dlx2" />
+        <module name="rabbit-06-dlx1" />
+        <module name="rabbit-03-topic" />
+        <module name="rabbit-01-receivemessage" />
+        <module name="rabbit-04-headers" />
         <module name="rabbit-02-direct" />
         <module name="rabbit-01-fanout" />
-        <module name="rabbit-03-topic" />
         <module name="rabbit-00-starttask-learn" />
-        <module name="rabbit-01-receivemessage" />
-        <module name="rabbit_00_chain_and_buildder_learn" />
+        <module name="rabbit-00-chain-and-buildder-learn" />
       </profile>
     </annotationProcessing>
   </component>
@@ -23,6 +28,11 @@
       <module name="rabbit-01-receivemessage" options="-parameters" />
       <module name="rabbit-02-direct" options="-parameters" />
       <module name="rabbit-03-topic" options="-parameters" />
+      <module name="rabbit-04-headers" options="-parameters" />
+      <module name="rabbit-05-ttl1" options="-parameters" />
+      <module name="rabbit-05-ttl2" options="-parameters" />
+      <module name="rabbit-06-dlx1" options="-parameters" />
+      <module name="rabbit-06-dlx2" options="-parameters" />
     </option>
   </component>
 </project>
