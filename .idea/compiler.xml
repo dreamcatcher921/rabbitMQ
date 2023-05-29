@@ -20,6 +20,9 @@
         <module name="rabbit-00-chain-and-buildder-learn" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rabbit_00_chain_and_buildder_learn" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
