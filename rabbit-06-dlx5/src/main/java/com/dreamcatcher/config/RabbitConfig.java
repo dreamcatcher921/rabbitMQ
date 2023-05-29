@@ -2,14 +2,16 @@ package com.dreamcatcher.config;
 
 import lombok.Setter;
 import org.springframework.amqp.core.*;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 import java.util.HashMap;
 import java.util.Map;
 
-//@Configuration
+@Configuration
 @Setter
-
+@ConfigurationProperties(prefix = "my")
 public class RabbitConfig {
 
     private String exchangeNormalName;
@@ -36,7 +38,8 @@ public class RabbitConfig {
     @Bean
     public Queue queueNormal() {
         Map<String, Object> arguments = new HashMap<>();
-
+        ////设置过期时间15s
+        //arguments.put("x-message-ttl", 15000);
         //设置死信交换机
         arguments.put("x-dead-letter-exchange", exchangeDlxName);
         //设置死信路由键  死信交换机会根据这个路由键去找死信队列 死信队列的路由键也是这个 如果不一样就会直接丢弃

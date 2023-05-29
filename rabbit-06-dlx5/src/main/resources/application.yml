@@ -2,7 +2,7 @@ server:
   port: 8080
 spring:
   application:
-    name: dlx-learn4 #主题交换机
+    name: dlx-learn5 #主题交换机
   #配置rabbitmq
   rabbitmq:
 #    host: 192.168.18.131 #rabbitmq的地址
@@ -13,7 +13,7 @@ spring:
     virtual-host: dreamcatcher #rabbitmq的虚拟主机
 
 my:
-  exchangeNormalName: exchange.normal.4   #正常交换机名称
-  queueNormalName: queue.normal.4 #正常队列，没有消费者，设置了过期时间
-  exchangeDlxName: exchange.dlx.4   #死信交换机名称
-  queueDlxName: queue.dlx.4 #死信队列
+  exchangeNormalName: exchange.normal.5   #正常交换机名称
+  queueNormalName: queue.normal.5 #正常队列，没有消费者，设置了过期时间
+  exchangeDlxName: exchange.dlx.5   #死信交换机名称
+  queueDlxName: queue.dlx.5 #死信队列

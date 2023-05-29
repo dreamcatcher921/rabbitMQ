@@ -2,10 +2,10 @@ server:
   port: 9090
 spring:
   application:
-    name: dlx-receiver-msg #服务名称
+    name: dlx-receiver-msg-reject #服务名称
   #配置rabbitmq
   rabbitmq:
-#    host: 192.168.18.131 #rabbitmq的地址
+    # host: 192.168.18.131 #rabbitmq的地址
     host: 47.120.35.124 #rabbitmq的地址
     port: 5672 #rabbitmq的端口号
     username: admin #rabbitmq的用户名
