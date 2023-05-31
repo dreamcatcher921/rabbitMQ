@@ -40,7 +40,7 @@ public class MessageService {
                     .andProperties(messageProperties)
                     .build();
             // 发送消息 头部交换机没有路由键
-            rabbitTemplate.convertAndSend(exchangeName, "order", message);
+            rabbitTemplate.convertAndSend(exchangeName, "pay", message);
             log.info("消息发送成功,发送时间:{}", new Date());
         }
     }
