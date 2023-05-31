@@ -21,8 +21,10 @@
         <option value="$PROJECT_DIR$/rabbit-06-receiver-msg/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-06-dlx5/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-06-receiver-msg-reject/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-07-delay1/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-07-delay2-problem1/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

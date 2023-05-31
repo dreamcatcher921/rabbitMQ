@@ -1,16 +1,18 @@
 server:
-  port: 9090
+  port: 8080
 spring:
   application:
-    name: dlx-receiver-msg #服务名称
+    name: delay-learn1 #主题交换机
   #配置rabbitmq
   rabbitmq:
 #    host: 192.168.18.131 #rabbitmq的地址
-    host: 47.120.35.124 #rabbitmq的地址
+    host: 47.120.35.124
     port: 5672 #rabbitmq的端口号
     username: admin #rabbitmq的用户名
     password: 123456 #rabbitmq的密码
     virtual-host: dreamcatcher #rabbitmq的虚拟主机
-    listener:
-      simple:
-        acknowledge-mode: manual #开启消费者的手动确认
+
+my:
+  exchangeName: exchange.delay.1 #交换机名称
+  queueNormalName: queue.delay.normal.1 #正常队列
+  queueDlxName: queue.delay.dlx.1 #死信队列名称
