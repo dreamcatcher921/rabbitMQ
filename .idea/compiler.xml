@@ -22,7 +22,11 @@
         <module name="rabbit-04-headers" />
         <module name="rabbit-02-direct" />
         <module name="rabbit-07-delay3-resolve" />
+        <module name="rabbit-08-confirm4" />
         <module name="rabbit-01-fanout" />
+        <module name="rabbit-08-confirm3" />
+        <module name="rabbit-08-confirm2" />
+        <module name="rabbit-08-confirm1" />
         <module name="rabbit-00-starttask-learn" />
         <module name="rabbit-06-dlx5" />
         <module name="rabbit-06-dlx4" />
@@ -54,6 +58,10 @@
       <module name="rabbit-07-delay2-problem1" options="-parameters" />
       <module name="rabbit-07-delay3-resolve" options="-parameters" />
       <module name="rabbit-07-delay4-plugins" options="-parameters" />
+      <module name="rabbit-08-confirm1" options="-parameters" />
+      <module name="rabbit-08-confirm2" options="-parameters" />
+      <module name="rabbit-08-confirm3" options="-parameters" />
+      <module name="rabbit-08-confirm4" options="-parameters" />
     </option>
   </component>
 </project>

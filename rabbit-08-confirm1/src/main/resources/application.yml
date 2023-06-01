@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: confirm-learn1  #主题交换机
+  #配置rabbitmq
+  rabbitmq:
+#    host: 192.168.18.131 #rabbitmq的地址
+    host: 47.120.35.124
+    port: 5672 #rabbitmq的端口号
+    username: admin #rabbitmq的用户名
+    password: 123456 #rabbitmq的密码
+    virtual-host: dreamcatcher #rabbitmq的虚拟主机
+    publisher-confirm-type: correlated #开启生产者的确认模式，设置关联模式   correlated 相关的
+
+my:
+  exchangeName: exchange.confirm.1 #交换机名称
+  queueName: queue.confirm.1 #队列名称
