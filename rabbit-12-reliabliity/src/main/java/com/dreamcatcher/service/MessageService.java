@@ -4,6 +4,7 @@ package com.dreamcatcher.service;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessageBuilder;
+import org.springframework.amqp.core.MessageDeliveryMode;
 import org.springframework.amqp.core.MessageProperties;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Value;
@@ -45,11 +46,12 @@ public class MessageService {
 
     public void send() {
         MessageProperties messageProperties = new MessageProperties();
-
+        // 设置单条消息持久化
+        messageProperties.setDeliveryMode(MessageDeliveryMode.PERSISTENT);
 
         Message message = MessageBuilder.withBody("Hello world!".getBytes()).andProperties(messageProperties).build();
         // 发送消息 头部交换机没有路由键
-        rabbitTemplate.convertAndSend(exchangeName+"1", "info", message);
+        rabbitTemplate.convertAndSend(exchangeName, "info", message);
         log.info("消息发送成功");
     }
 }
