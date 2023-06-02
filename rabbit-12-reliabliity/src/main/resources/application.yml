@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: reliabliity-learn #主题交换机
+  #配置rabbitmq
+  rabbitmq:
+#    host: 192.168.18.131 #rabbitmq的地址
+    host: 47.120.35.124
+    port: 5672 #rabbitmq的端口号
+    username: admin #rabbitmq的用户名
+    password: 123456 #rabbitmq的密码
+    virtual-host: dreamcatcher #rabbitmq的虚拟主机
+    publisher-confirm-type: correlated #开启确认模式  不管到没到交换机都会回调
+    publisher-returns: true #开启发布者返回模式   只有失败（没有到队列）的时候才会回调
+
+my:
+  exchangeName: exchange.reliabliity #交换机名称
+  queueName: queue.reliabliity #队列名称

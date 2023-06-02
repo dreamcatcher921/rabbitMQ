@@ -1,0 +1,20 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: properties-exchange-learn1 #主题交换机
+  #配置rabbitmq
+  rabbitmq:
+#    host: 192.168.18.131 #rabbitmq的地址
+    host: 47.120.35.124
+    port: 5672 #rabbitmq的端口号
+    username: admin #rabbitmq的用户名
+    password: 123456 #rabbitmq的密码
+    virtual-host: dreamcatcher #rabbitmq的虚拟主机
+
+my:
+  exchangeNormalName: exchange.alternate.normal.1 #正常交换机名称
+  exchangeAlternateName: exchange.alternate.1 #备用交换机
+  queueNormalName: queue.alternate.normal.1 #正常队列名称
+  queueAlternateName: queue.alternate.1 #备用队列名称
+

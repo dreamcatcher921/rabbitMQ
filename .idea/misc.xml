@@ -29,8 +29,16 @@
         <option value="$PROJECT_DIR$/rabbit-08-confirm2/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-08-confirm3/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-08-confirm4/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-09-return1/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-09-return2/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-09-return3/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-10-exchange1/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-10-exchange2/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-11-queue-proterties1/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-11-queue-proterties2/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-12-reliabliity/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
