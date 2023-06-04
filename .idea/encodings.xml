@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://D:/Maven/apache-maven-3.8.1/maven-repo/org/springframework/boot/spring-boot-starter-parent/2.6.13/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../Maven/apache-maven-3.8.1/maven-repo/org/springframework/boot/spring-boot-starter-parent/2.6.13/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit-00-chain-and-buildder-learn/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit-00-chain-and-buildder-learn/src/main/resources" charset="UTF-8" />
@@ -45,5 +44,6 @@
     <file url="file://$PROJECT_DIR$/rabbit-11-queue-proterties1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit-11-queue-proterties2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit-12-reliabliity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-13-idempotent/src/main/java" charset="UTF-8" />
   </component>
 </project>

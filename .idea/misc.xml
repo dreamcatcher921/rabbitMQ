@@ -37,6 +37,7 @@
         <option value="$PROJECT_DIR$/rabbit-11-queue-proterties1/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-11-queue-proterties2/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-12-reliabliity/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-13-idempotent/pom.xml" />
       </list>
     </option>
   </component>
